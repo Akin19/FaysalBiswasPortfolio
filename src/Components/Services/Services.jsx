@@ -1,8 +1,7 @@
 import "./Services.css";
-import { useNavigate } from "react-router-dom";
 
 import seo from "../../assets/img/seo.png";
-import UI from "../../assets/img/UX.png";
+import UI from "../../assets/img/ux.png";
 import graphic from "../../assets/img/graphic.png";
 import social from "../../assets/img/social-media.png";
 
@@ -11,7 +10,6 @@ import Card from "../Card/Card";
 const Services = () => {
   // const transition = { duration: 2, type: "spring" };
 
-  const navigate = useNavigate();
   return (
     <div id="Services" className="services">
       {/* Left side */}
