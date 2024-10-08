@@ -3,7 +3,10 @@ import "./App.css";
 
 import { themeContext } from "./Context";
 import Thumbnails from "./Pages/Thumbnails/Thumbnails";
-import { Routes, Route } from "react-router-dom";
+// import { Routes, Route } from "react-router-dom";
+
+import { BrowserRouter as Routes, Route } from "react-router-dom";
+
 import Home from "./Pages/Home/Home";
 
 const App = () => {
