@@ -152,6 +152,8 @@ import Img111 from "../../assets/galleryImg/seo16.jpg";
 import Img112 from "../../assets/galleryImg/seo17.jpg";
 import Img113 from "../../assets/galleryImg/seo18.jpg";
 
+import DigitalMarketing from "../../assets/galleryImg/DigitalMarketing.jpg";
+
 import "./Gallery.css";
 
 const Gallery = ({ Category }) => {
@@ -652,6 +654,10 @@ const Gallery = ({ Category }) => {
     {
       category: "Graphics",
       imgSrc: Img49,
+    },
+    {
+      category: "Digital Marketing",
+      imgSrc: DigitalMarketing,
     },
   ];
 

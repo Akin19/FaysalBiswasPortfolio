@@ -4,7 +4,7 @@ const Experience = () => {
     <div id="Experience" className="experience">
       <div className="achievement">
         <div className="circle">
-          <span>8+</span>
+          <span>4+</span>
         </div>
         <span>years</span>
         <span>Experience</span>

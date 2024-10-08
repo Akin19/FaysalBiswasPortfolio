@@ -34,7 +34,7 @@ const Services = () => {
         <div className="service-card">
           <Card
             emoji={seo}
-            heading={"SEO"}
+            heading={"Seo"}
             detail={
               "SEO is a powerful way to improve online visibility, drive traffic, and ultimately increase business revenue in a sustainable and cost-efficient manner"
             }
@@ -45,38 +45,38 @@ const Services = () => {
             emoji={social}
             heading={"Digital Marketing"}
             detail={
-              "Digital marketing provides a wide reach, targeting capabilities, and measurable results, making it an essential part of modern marketing strategies."
+              "Digital marketing provides a wide reach, targeting capabilities, making it an essential part of modern marketing strategies."
             }
           />
         </div>
         <div className="service-card">
           <Card
             emoji={UI}
-            heading={"Youtube Thumnails"}
+            heading={"Thumbnails"}
             detail={
-              "Designing effective YouTube thumbnails is essential for attracting more views, improving video performance, building brand recognition, and growing a channel."
+              "Designing effective YouTube thumbnails is essential for attracting more views, improving video performance and growing a channel."
             }
           />
         </div>
         <div className="service-card">
           <Card
             emoji={graphic}
-            heading={"Graphics Design"}
+            heading={"Graphics"}
             detail={
-              "Graphic Design is vital in creating an impactful, engaging, and credible brand presence. It enhances communication, user experience, and marketing efforts, all contributing to business growth and success."
+              "Graphic Design is vital in creating an impactful, engaging, and credible brand presence."
             }
           />
         </div>
       </div>
 
-      <div className="cv-button">
+      {/* <div className="cv-button">
         <button
           onClick={() => navigate("/thumbnails")}
           className="button s-button"
         >
           See Demo
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };

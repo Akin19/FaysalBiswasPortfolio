@@ -13,3 +13,9 @@
   font-size: 20px;
   border-radius: 5px;
 }
+
+@media screen and (max-width: 480px) {
+  .thumnailName {
+    display: none !important;
+  }
+}
