@@ -3,6 +3,7 @@ import Gallery from "../../Components/Gallery/Gallery";
 import { useLocation } from "react-router-dom";
 import "./Thumbnails.css";
 import { useState, useEffect } from "react";
+
 const Thumbnails = () => {
   const location = useLocation();
   const { heading } = location.state || {};
