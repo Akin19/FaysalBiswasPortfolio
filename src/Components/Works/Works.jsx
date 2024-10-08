@@ -1,5 +1,5 @@
 import upwork from "../../assets/img/Upwork.png";
-import fiver from "../../assets/img/Fiverr.png";
+import fiver from "../../assets/img/fiverr.png";
 import amazon from "../../assets/img/youtube.png";
 import shopyfy from "../../assets/img/Shopify.png";
 import facebook from "../../assets/img/Facebook.png";
