@@ -17,9 +17,7 @@ const Card = ({ emoji, heading, detail }) => {
         <span>{detail}</span>
         {/* <button onClick={() => navigate("/thumbnails")} className="button"> */}
         <button onClick={handleClick} className="button">
-          <a style={{ textDecoration: "none" }} href="#">
-            See Demo
-          </a>
+          See Demo
         </button>
       </div>
     </div>
