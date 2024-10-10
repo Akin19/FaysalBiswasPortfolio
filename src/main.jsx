@@ -4,16 +4,15 @@ import App from "./App.jsx";
 import "./index.css";
 
 import { ThemeProvider } from "./Context.jsx";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
+import { StrictMode } from "react";
 
 createRoot(document.getElementById("root")).render(
-  // <StrictMode>
-
-  // </StrictMode>
-
-  <BrowserRouter>
-    <ThemeProvider>
-      <App />
-    </ThemeProvider>
-  </BrowserRouter>
+  <StrictMode>
+    <HashRouter>
+      <ThemeProvider>
+        <App />
+      </ThemeProvider>
+    </HashRouter>
+  </StrictMode>
 );

@@ -661,11 +661,10 @@ const Gallery = ({ Category }) => {
     },
   ];
 
-  console.log(Category);
   const filteredImages = imgData.filter((item) =>
     Category === "All" ? true : item.category === Category
   );
-  console.log(filteredImages);
+
   return (
     <>
       <div className="gallery">

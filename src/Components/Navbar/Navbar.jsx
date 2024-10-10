@@ -1,3 +1,70 @@
+// import { NavLink } from "react-router-dom";
+// import Toggle from "../Toggle/Toggle";
+// import "./Navbar.css";
+// import { Link } from "react-scroll";
+
+// const Navbar = () => {
+//   return (
+//     <div className="n-wrapper">
+//       <div className="n-left">
+//         <div className="n-name">
+//           <NavLink to="/" style={{ textDecoration: "none" }}>
+//             <h3>Faysal</h3>
+//           </NavLink>
+//         </div>
+//         <span>
+//           <Toggle />
+//         </span>
+//       </div>
+//       <div className="n-right">
+//         <div className="n-list">
+//           <ul>
+//             <NavLink
+//               spy={true}
+//               to="/"
+//               smooth={true}
+//               activeClass="activeClass"
+//               style={{ textDecoration: "none" }}
+//             >
+//               <li>Home</li>
+//             </NavLink>
+//             <Link
+//               spy={true}
+//               to="Services"
+//               smooth={true}
+//               activeClass="activeClass"
+//             >
+//               <li>Services</li>
+//             </Link>
+//             <Link
+//               spy={true}
+//               to="Experience"
+//               smooth={true}
+//               activeClass="activeClass"
+//             >
+//               <li>Experience</li>
+//             </Link>
+
+//             <Link
+//               spy={true}
+//               to="Portfolio"
+//               smooth={true}
+//               activeClass="activeClass"
+//             >
+//               <li>Portfolio</li>
+//             </Link>
+//           </ul>
+//         </div>
+//         <Link to="Contact" spy={true} smooth={true}>
+//           <button className="n-button button">Contact</button>
+//         </Link>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Navbar;
+
 import { NavLink } from "react-router-dom";
 import Toggle from "../Toggle/Toggle";
 import "./Navbar.css";
@@ -8,12 +75,7 @@ const Navbar = () => {
     <div className="n-wrapper">
       <div className="n-left">
         <div className="n-name">
-          <NavLink
-            spy={true}
-            to="/"
-            smooth={true}
-            style={{ textDecoration: "none" }}
-          >
+          <NavLink to="/" style={{ textDecoration: "none" }}>
             <h3>Faysal</h3>
           </NavLink>
         </div>
@@ -24,15 +86,16 @@ const Navbar = () => {
       <div className="n-right">
         <div className="n-list">
           <ul>
+            {/* Remove 'spy' and 'smooth' from NavLink */}
             <NavLink
-              spy={true}
               to="/"
-              smooth={true}
-              activeClass="activeClass"
+              className={({ isActive }) => (isActive ? "activeClass" : "")}
               style={{ textDecoration: "none" }}
             >
               <li>Home</li>
             </NavLink>
+
+            {/* Use Link from react-scroll for scrolling sections */}
             <Link
               spy={true}
               to="Services"
@@ -49,7 +112,6 @@ const Navbar = () => {
             >
               <li>Experience</li>
             </Link>
-
             <Link
               spy={true}
               to="Portfolio"
@@ -60,6 +122,7 @@ const Navbar = () => {
             </Link>
           </ul>
         </div>
+
         <Link to="Contact" spy={true} smooth={true}>
           <button className="n-button button">Contact</button>
         </Link>
