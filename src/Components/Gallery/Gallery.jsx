@@ -160,15 +160,15 @@ const Gallery = ({ Category }) => {
   const imgData = [
     // seo
     {
-      category: "Seo",
+      category: "SEO",
       imgSrc: Img96,
     },
     {
-      category: "Seo",
+      category: "SEO",
       imgSrc: Img97,
     },
     {
-      category: "Seo",
+      category: "SEO",
       imgSrc: Img98,
     },
 
@@ -207,63 +207,63 @@ const Gallery = ({ Category }) => {
     // seo starts here
 
     {
-      category: "Seo",
+      category: "SEO",
       imgSrc: Img96,
     },
     {
-      category: "Seo",
+      category: "SEO",
       imgSrc: Img97,
     },
     {
-      category: "Seo",
+      category: "SEO",
       imgSrc: Img98,
     },
 
     {
-      category: "Seo",
+      category: "SEO",
       imgSrc: Img99,
     },
     {
-      category: "Seo",
+      category: "SEO",
       imgSrc: Img100,
     },
     {
-      category: "Seo",
+      category: "SEO",
       imgSrc: Img101,
     },
 
     {
-      category: "Seo",
+      category: "SEO",
       imgSrc: Img102,
     },
     {
-      category: "Seo",
+      category: "SEO",
       imgSrc: Img103,
     },
     {
-      category: "Seo",
+      category: "SEO",
       imgSrc: Img104,
     },
 
     {
-      category: "Seo",
+      category: "SEO",
       imgSrc: Img105,
     },
     {
-      category: "Seo",
+      category: "SEO",
       imgSrc: Img106,
     },
     {
-      category: "Seo",
+      category: "SEO",
       imgSrc: Img107,
     },
 
     {
-      category: "Seo",
+      category: "SEO",
       imgSrc: Img108,
     },
     {
-      category: "Seo",
+      category: "SEO",
       imgSrc: Img109,
     },
 
@@ -405,19 +405,19 @@ const Gallery = ({ Category }) => {
     // seo starts here
 
     {
-      category: "Seo",
+      category: "SEO",
       imgSrc: Img110,
     },
     {
-      category: "Seo",
+      category: "SEO",
       imgSrc: Img111,
     },
     {
-      category: "Seo",
+      category: "SEO",
       imgSrc: Img112,
     },
     {
-      category: "Seo",
+      category: "SEO",
       imgSrc: Img113,
     },
     {

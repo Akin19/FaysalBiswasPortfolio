@@ -47,7 +47,7 @@ const Thumbnails = () => {
             onChange={(e) => setCategory(e.target.value)}
           >
             <option value="All">All Category</option>
-            <option value="Seo">Seo</option>
+            <option value="SEO">SEO</option>
             <option value="Thumbnails">Thumbnails</option>
             <option value="Graphics">Graphics</option>
             <option value="Digital Marketing">Digital Marketing</option>
