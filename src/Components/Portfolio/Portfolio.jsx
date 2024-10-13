@@ -1,12 +1,12 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import graphics1 from "../../assets/galleryImg/seo15.jpg";
+import graphics1 from "../../assets/galleryImg/seo21.jpg";
 import graphics2 from "../../assets/galleryImg/seo17.jpg";
 import graphics3 from "../../assets/galleryImg/seo18.jpg";
 import graphics4 from "../../assets/galleryImg/seo2.jpg";
 import graphics5 from "../../assets/galleryImg/seo9.jpg";
 import graphics6 from "../../assets/galleryImg/seo14.jpg";
-import graphics7 from "../../assets/galleryImg/seo3.jpg";
-import graphics8 from "../../assets/galleryImg/seo4.jpg";
+import graphics7 from "../../assets/galleryImg/seo19.jpg";
+import graphics8 from "../../assets/galleryImg/seo20.jpg";
 import graphics9 from "../../assets/galleryImg/seo6.jpg";
 import "./Portfolio.css";
 import "swiper/css";

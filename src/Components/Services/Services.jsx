@@ -32,7 +32,7 @@ const Services = () => {
         <div className="service-card">
           <Card
             emoji={seo}
-            heading={"Seo"}
+            heading={"SEO"}
             detail={
               "SEO is a powerful way to improve online visibility, drive traffic, and ultimately increase business revenue in a sustainable and cost-efficient manner"
             }

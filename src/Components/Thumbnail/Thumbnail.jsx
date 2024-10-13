@@ -5,10 +5,10 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { Autoplay, EffectCoverflow, Pagination } from "swiper/modules";
 
-import thumbnail1 from "../../assets/galleryImg/graphics1.jpg";
-import thumbnail2 from "../../assets/galleryImg/graphics22.jpg";
+import thumbnail1 from "../../assets/galleryImg/graphics13.jpg";
+import thumbnail2 from "../../assets/galleryImg/graphics6.jpg";
 import thumbnail3 from "../../assets/galleryImg/graphics23.jpg";
-import thumbnail4 from "../../assets/galleryImg/graphics33.jpg";
+import thumbnail4 from "../../assets/galleryImg/graphics4.jpg";
 import thumbnail5 from "../../assets/galleryImg/thumbnail5.jpg";
 import thumbnail6 from "../../assets/galleryImg/graphics17.jpg";
 import thumbnail7 from "../../assets/galleryImg/graphics19.jpg";

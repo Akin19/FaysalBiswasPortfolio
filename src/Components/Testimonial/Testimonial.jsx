@@ -27,14 +27,14 @@ const Testimonial = () => {
     {
       img: profilepic3,
       review:
-        " When needing a thumbnail for YouTube, he gave understandable suggestions, was patient, and was responsive. I'd highly recommend his service not to mention I admire his creativity. ",
+        " I recently worked with a talented young freelancer Faysal who designed incredible thumbnails for my YouTube channel. These eye-catching thumbnails transformed the look of my videos, making them significantly more appealing. If you’re searching for top-notch thumbnail designs to elevate your channel, I highly recommend this freelancer. He’s truly one of the best in the business! ",
       name: "Thumbnails Client : DR. Fred Jones",
     },
     {
       img: profilepic4,
       review:
-        " I recently worked with Faysal for digital marketing services, and I’m very pleased with the results. He is very professional, responsive, and showed a deep understanding of digital marketing strategies tailored to my business needs. I highly recommend Faysal! for anyone looking to grow their business through digital marketing! ",
-      name: "Digital Marketing Client : Asad AKin",
+        "Faysal expertise in SEO optimization and YouTube channel growth management has been invaluable. His deep understanding of SEO strategies and tailored approach significantly boosted my video rankings, leading to more organic traffic and subscribers. He’s knowledgeable and proactive in providing actionable insights to ensure sustained growth. I highly recommend Faysal to anyone looking to optimize their channel and see real results ",
+      name: "Youtube SEO Client",
     },
   ];
   return (

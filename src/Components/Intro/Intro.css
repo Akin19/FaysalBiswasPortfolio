@@ -65,30 +65,35 @@
   position: relative;
 }
 
-.i-right > img {
+/* .i-right > img {
   position: absolute;
   z-index: 1;
-}
+  
+} */
 
 .i-right > :nth-child(1) {
+  position: absolute;
   transform: scale(0.69);
-  left: -15%;
+  left: 5rem;
   top: -9%;
 }
 
 .i-right > :nth-child(2) {
+  position: absolute;
   transform: scale(0.67);
   left: -3rem;
   top: -4.6rem;
 }
 
 .i-right > :nth-child(3) {
+  position: absolute;
+  height: 100%;
+  left: 20%;
   transform: scale(1);
-  left: 8%;
-  top: -7rem;
 }
 
 .i-right > :nth-child(4) {
+  position: absolute;
   transform: scale(0.6);
   top: -19%;
   left: -24%;
@@ -139,13 +144,15 @@
   }
 
   .i-right > :nth-child(3) {
-    transform: scale(1.4) !important;
+    transform: scale(0.8) !important;
     left: 8rem !important;
+    top: -4rem;
   }
   .i-icons > a > * {
     width: 70px;
   }
 }
+
 @media screen and (max-width: 1026px) {
   .intro {
     height: auto;
@@ -165,7 +172,7 @@
   }
   .i-right > :nth-child(1) {
     transform: scale(0.59) !important;
-
+    left: -3rem;
     top: -9%;
   }
 
@@ -176,8 +183,14 @@
   }
 
   .i-right > :nth-child(3) {
-    transform: scale(0.9) !important;
-    top: -6rem;
+    top: -3rem;
+    left: 6rem;
+  }
+}
+@media screen and (max-width: 850px) {
+  .i-right > :nth-child(3) {
+    left: 4rem;
+    transform: scale(0.8);
   }
 }
 @media screen and (max-width: 768px) {
@@ -193,14 +206,13 @@
     left: -5rem;
   }
   .i-right > :nth-child(1) {
-    transform: scale(0.46);
+    transform: scale(0.4);
   }
   .i-right > :nth-child(2) {
-    transform: scale(0.46);
+    transform: scale(0.4);
   }
   .i-right > :nth-child(3) {
-    transform: scale(0.8);
-    left: 9%;
+    transform: scale(0.7);
     top: -4rem;
   }
   .link {
@@ -220,9 +232,9 @@
 @media screen and (max-width: 600px) {
   .intro {
     flex-direction: column-reverse;
-    min-height: 47rem;
+    min-height: 42rem;
     gap: 0rem;
-    margin-top: 10px;
+    margin-top: 0px;
   }
   .i-left {
     align-items: center;
@@ -244,15 +256,17 @@
     top: -1rem;
   }
   .i-right > :nth-child(1) {
-    transform: scale(0.56);
+    transform: scale(0.76) !important;
+    left: -1rem !important;
   }
 
   .i-right > :nth-child(2) {
-    transform: scale(0.56);
+    transform: scale(0.66) !important;
   }
   .i-right > :nth-child(3) {
-    transform: scale(1);
-    left: 8%;
+    transform: scale(1.3);
+    left: 7rem;
+    top: 1rem;
   }
 
   .floating-div {
@@ -266,27 +280,61 @@
     gap: 2rem;
   }
   .i-right {
-    transform: scale(0.6);
     left: -4rem;
     top: -1rem;
   }
 
+  /* .i-right > :nth-child(1) {
+    transform: scale(0.6) !important;
+    top: -5.5rem !important;
+  } */
+  .i-right > :nth-child(1) {
+    transform: scale(0.6) !important;
+    left: -2rem !important;
+  }
   .i-right > :nth-child(2) {
-    transform: scale(0.5);
+    transform: scale(0.56) !important;
     top: -5.5rem !important;
   }
   .i-right > :nth-child(3) {
-    transform: scale(0.8);
+    transform: scale(1.2) !important;
+    left: 8rem;
+    top: 2rem;
   }
 
   @media screen and (max-width: 390px) {
     .intro {
       min-height: 43rem;
     }
+
+    .i-right > :nth-child(1) {
+      transform: scale(0.56) !important;
+      left: -25% !important;
+    }
+    .i-right > :nth-child(2) {
+      transform: scale(0.5) !important;
+      top: -5.5rem !important;
+      left: -35% !important;
+    }
+    .i-right > :nth-child(3) {
+      transform: scale(1.2) !important;
+      left: 40%;
+      top: 2rem;
+    }
+  }
+  @media screen and (max-width: 350px) {
+    .intro {
+      min-height: 40rem;
+    }
+    .i-right > :nth-child(3) {
+      transform: scale(1.5) !important;
+      left: 55%;
+      top: 3rem;
+    }
   }
   @media screen and (max-width: 305px) {
     .intro {
-      min-height: 45rem;
+      min-height: 40rem;
     }
   }
   @media screen and (max-width: 275px) {

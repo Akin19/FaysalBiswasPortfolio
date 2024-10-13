@@ -5,7 +5,7 @@ import linkedin from "../../assets/img/linkedin.png";
 import whatsapp from "../../assets/img/whatsapp.png";
 import vector1 from "../../assets/img/Vector1.png";
 import vector2 from "../../assets/img/Vector2.png";
-import boy from "../../assets/img/foysal.png";
+import boy from "../../assets/img/faysal.png";
 import { Link } from "react-scroll";
 // import thumbup from "../../assets/img/thumbup.png";
 import crown from "../../assets/img/crown.png";
@@ -79,7 +79,7 @@ const Intro = () => {
         <motion.img
           className="vector1"
           initial={{ left: "-15%", top: "-9%" }}
-          whileInView={{ left: "-18%" }}
+          whileInView={{ left: "-2rem" }}
           transition={transition}
           src={vector1}
           alt=""
